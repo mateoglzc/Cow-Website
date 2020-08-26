@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #90be6d;
+}
+
+div{
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    font-size: 35px;
+    margin-top: 200px;
+}
+
+.question{
+    font-size: 25px;
+}

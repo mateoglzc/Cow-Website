@@ -3,6 +3,6 @@
 def moo(beef_per_week: int, years: int) -> int:
     years = int(years)
     beef_per_week = int(beef_per_week)
-    years - 4
+    years -= 4
     years_weeks = 52*years
-    return int((years_weeks*200*beef_per_week)/204117)
+    return (years_weeks*200*beef_per_week)/204117

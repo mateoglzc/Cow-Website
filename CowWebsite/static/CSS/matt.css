@@ -21,3 +21,12 @@ div{
 .question{
     font-size: 25px;
 }
+
+.form_style{
+    color: black;
+
+}
+
+#submit{
+    width: 75px;
+}

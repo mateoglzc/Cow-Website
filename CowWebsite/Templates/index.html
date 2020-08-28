@@ -9,11 +9,22 @@
 </head>
 
 <body>
-    <div class="title">
-        <h4>How many cows have you eaten in your life time?</h4>
-    </div>
-    <div class="question">How old are you?</div>
-    <div class="question">In avarage how many times do you eat beef in a week?</div>
+    <form method="POST" action="">
+        <div class="title">
+            <h4>How many cows have you eaten in your life time?</h4>
+        </div>
+        <div class="question">How old are you?</div>
+        <div>
+            {{ form.hidden_tag() }}
+            {{ form.years(class='form_style') }}
+        </div>
+        <div class="question">In avarage how many times do you eat beef in a week?</div>
+        <div>
+            {{ form.hidden_tag() }}
+            {{ form.beef(class='form_style') }}
+        </div>
+        <div>{{ form.submit(class='form_style', id='submit') }}</div>
+    </form>
 </body>
 
 </html>

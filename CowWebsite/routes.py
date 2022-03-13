@@ -5,6 +5,7 @@ from CowWebsite import app
 
 years_ = 0
 beef_ = 0
+hello = 0
 
 @app.route('/',  methods=['POST', 'GET'])
 @app.route('/home', methods=['POST', 'GET'])
